@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Ramaraja&display=swap');
+:root{
+    --purple: #824FF1;
+    --font: 'Roboto', sans-serif;
+    --white:#fff;
+    --padding:15px 20px;
+    --radius:5px;
+}
+.nav-link{
+    --text: none;
+    text-decoration: var(--text);
+    font-family: var(--font);
+    --fColor: #000;
+    color: var(--fColor);
+}
+.nav-link:hover{
+  color: #585858;
+  /* color: #fff; */
+}
+.main-nav{
+    --list:none;
+    list-style-type: var(--list);
+    background-color: var(--white);
+}
+.nav-list{
+    --float:left;
+    float: var(--float);
+    padding: var(--padding);
+}
+.list1{
+    --mrgn:170px;
+    margin-left: var(--mrgn);
+}
+.nav-list2{
+    --fr:right;
+    float: var(--fr);
+    padding: var(--padding);
+}
+.list3{
+    --mrgnR: 30px;
+    margin-right: var(--mrgnR);
+}
+.active{
+    background-color: var(--purple);
+    --btn-padding:15px 25px;
+    padding: var(--btn-padding);
+    color: var(--white);
+    border-radius: var(--radius);
+}
+.logo{
+    --pos:absolute;
+    position: var(--pos);
+    left: 50px;
+    top: 27px;
+}
+.main-card{
+    --show:flex;
+    display: var(--show);
+    width: 100%;
+}
+.card-head{
+    --fontf:'Ramaraja', serif;
+    font-family: var(--fontf);
+    --size: 50px;
+    font-size: var(--size);
+}
+.card-para{
+    font-family: var(--font);
+    line-height: 25px;
+    margin-top: -40px;
+}
+.sub-card{
+    width: 39%;
+    margin-top: 130px;
+    margin-left: 120px;
+}
+.card-btn{
+    border: none;
+    padding: 15px 30px;
+    border-radius: var(--radius);
+    background-color: var(--purple);
+    color: var(--white);
+    margin-top: 15px;
+}
+.card-img{
+   max-width: 80%;
+    margin-top: 110px;
+    margin-left: 40px;
+}
